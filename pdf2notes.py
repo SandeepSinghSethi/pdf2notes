@@ -365,7 +365,7 @@ def main():
     parser.add_argument("--rpm", type=int, default=40,
                          help="Max API requests per minute, across all workers (default 40) "
                               "— set this to match your provider's actual rate limit")
-    parser.add_argument("--model", default="nvidia/llama-3.3-nemotron-super-49b-v1.5",
+    parser.add_argument("--model", default="nvidia/nemotron-3-ultra-550b-a55b",
                          help="Model name as your provider expects it. Providers retire "
                               "model IDs periodically — check your provider's current "
                               "catalog if this default 404s/410s.")
