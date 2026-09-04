@@ -1,0 +1,2 @@
+pdfplumber>=0.11.0
+openai>=1.0.0
